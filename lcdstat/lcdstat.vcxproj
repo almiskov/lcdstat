@@ -81,6 +81,9 @@
   <ItemGroup>
     <ClCompile Include="lcdstat.c" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="readme.md" />
+  </ItemGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
     <Link>
       <AdditionalOptions>-lwiringPi -lwiringPiDev %(AdditionalOptions)</AdditionalOptions>
